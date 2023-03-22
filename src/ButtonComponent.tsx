@@ -15,7 +15,7 @@ const FirstComponent = () => {
 
     return (
         <>
-            <Button onClick={showModal}>Open Modal</Button>
+            <Button style={{ margin: '1rem' }} onClick={showModal}>Open Modal</Button>
             <SecondComponent visible={visible} onCancel={handleCancel} />
         </>
     );

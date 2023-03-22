@@ -81,7 +81,7 @@ const SecondComponent = ({ visible, onCancel }: Props) => {
                 <Form.Item>
                     <div className='inputField'>
                     <Controller
-                        render={({ field }) => <Input.TextArea style={{borderColor:'#2B7A78' }} {...field} rows={5} placeholder={'Дополнительные требования или пожелания ...'} />}
+                        render={({ field }) => <Input.TextArea style={{borderColor:'#2B7A78', marginTop: '6rem' }} {...field} rows={5} placeholder={'Дополнительные требования или пожелания ...'} />}
                         name="comment"
                         control={control}
                         defaultValue=""
