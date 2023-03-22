@@ -1,0 +1,12 @@
+.modalInput {
+    border: 1px solid #2B7A78 !important;
+    border-radius: 10px;
+    scrollbar-color: #282c34 #61dafb !important;
+}
+.ant-select-status-error {
+    border-color: #282c34 ;
+}
+
+.margin-input {
+    margin-bottom: 5rem !important;
+}
